@@ -9,3 +9,11 @@ footer {
 img {
 	width:300px;
 }
+
+.box {
+	border: 5px solid black;
+	display: inline-block;
+	padding: 5px 20px 5px 15px;
+	margin: 40px;
+}
+
