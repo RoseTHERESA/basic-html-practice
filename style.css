@@ -10,10 +10,31 @@ img {
 	width:300px;
 }
 
+table { 
+  border: 5px solid black;
+  border-collapse: collapse;
+}
+
+td, th {
+ border-left: 1px solid black;
+ padding: 5px;
+}
+
+
+tr:nth-child(odd){
+		background: lightgrey;
+	}
+	tr:nth-child(even){
+		background:;
+	}
+
+#tableHeader {
+		background: gray;
+	}
+
 .box {
 	border: 5px solid black;
 	display: inline-block;
 	padding: 5px 20px 5px 15px;
 	margin: 40px;
 }
-
